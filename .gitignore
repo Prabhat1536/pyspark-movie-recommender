@@ -1,0 +1,25 @@
+﻿# Virtual Environment
+venv/
+.venv/
+env/
+
+# Auto-downloaded Datasets & Saved Models
+data/
+models/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Spark & Hadoop Temporary Artifacts
+metastore_db/
+derby.log
+spark-warehouse/
+*.crc
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
